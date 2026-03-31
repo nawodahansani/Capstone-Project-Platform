@@ -27,5 +27,5 @@ jobs:
             run: >
                 gcloud compute ssh vm-platform-seed --zone=asia-southeast1-c
                 --command "echo 'Connected to vm-platform-seed successfully!' &&
-                pwd && whoami
+                cd Capstone-Project-Platform/
                 "
